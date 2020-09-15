@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navoi_img_width">170dp</dimen>
+    <dimen name="navoi_img_height">120dp</dimen>
+    <dimen name="navoi_text_size">25sp</dimen>
+    <dimen name="navoi_tuman_text_size">16sp</dimen>
+    <dimen name="card_layout_back_height">140dp</dimen>
+    <dimen name="jami_tuman">20sp</dimen>
+</resources>

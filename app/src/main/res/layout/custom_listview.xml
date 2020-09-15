@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_layout_back_height"
+        android:alpha="0.8"
+        android:layout_margin="2dp"
+        android:background="@drawable/background"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_view_tuman"
+            android:layout_width="@dimen/navoi_img_width"
+            android:layout_height="@dimen/navoi_img_height"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/navoi" />
+
+        <TextView
+            android:id="@+id/text_view_tuman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="16dp"
+            android:layout_toRightOf="@id/img_view_tuman"
+            android:text="NAVBAHOR"
+            android:textSize="@dimen/navoi_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_jami_tuman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_below="@id/text_view_tuman"
+            android:layout_toRightOf="@id/img_view_tuman"
+            android:text="Jami: 16T 630kg"
+            android:textSize="@dimen/jami_tuman"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

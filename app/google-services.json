@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "728414617212",
+    "firebase_url": "https://yoshbrigada.firebaseio.com",
+    "project_id": "yoshbrigada",
+    "storage_bucket": "yoshbrigada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728414617212:android:c07c7fed8c833506dd13f9",
+        "android_client_info": {
+          "package_name": "shohjahont9.yoshbrigada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728414617212-2f7tugl2ct8fkdnuv3vrjhuvu7oi0fb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU8McEpYcSFobZmCviJYhrSM9fskpaHnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728414617212-2f7tugl2ct8fkdnuv3vrjhuvu7oi0fb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
